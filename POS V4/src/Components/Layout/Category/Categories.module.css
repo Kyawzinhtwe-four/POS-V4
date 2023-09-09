@@ -1,0 +1,22 @@
+.category {
+  height: 20vh;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  background-color: var(--light-black);
+  padding: 1.2rem 2.4rem;
+}
+.category-list {
+  width: 100%;
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1.2rem;
+  column-gap: 0.6rem;
+}
+.cat-btn {
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+  padding: 1.2rem 0.6rem;
+}

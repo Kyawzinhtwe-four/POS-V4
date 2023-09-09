@@ -1,0 +1,55 @@
+.total-section {
+  background-color: var(--light-black);
+  position: relative;
+  color: var(--white);
+}
+
+.total-data {
+  width: 100%;
+  position: absolute;
+  top: -90px;
+  left: 20px;
+}
+.total-data span {
+  display: block;
+  width: 80%;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+.total-form {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.rec-amount label {
+  margin-bottom: 1.6rem;
+}
+.rec-amount label,
+.bal-amount label {
+  width: 7rem;
+  display: inline-block;
+}
+.rec-amount input,
+.bal-amount input {
+  border: none;
+  background-color: var(--dark-black);
+  height: 2.5rem;
+  width: 15rem;
+}
+.rec-amount input {
+  color: var(--light-gold);
+}
+.bal-amount input {
+  color: var(--dark-gold);
+}
+.cart-action-btn button {
+  border: none;
+  color: var(--white);
+  width: 20rem;
+  height: 4rem;
+  line-height: 4rem;
+  cursor: pointer;
+  background-color: var(--light-gold);
+  margin: 1rem 0 0 1rem;
+}

@@ -1,0 +1,56 @@
+.helper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 30rem;
+  background-color: var(--light-black);
+  align-items: center;
+  padding: 1.2rem 0;
+  column-gap: 2.4rem;
+}
+
+.help-gp {
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.transition {
+  margin-bottom: 0.4rem;
+}
+.transition,
+.search-form {
+  display: flex;
+}
+.help-gp label {
+  width: 15rem;
+  display: inline-block;
+  text-align: right;
+  padding-right: 2rem;
+}
+.help-gp input {
+  background-color: var(--dark-black);
+  border: none;
+  outline: none;
+  width: 15rem;
+  height: 1.8rem;
+
+  color: var(--dark-gold);
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.current-date {
+  color: var(--white);
+  font-size: 1.6rem;
+}
+.total-amount {
+  color: var(--dark-gold);
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-align: right;
+}

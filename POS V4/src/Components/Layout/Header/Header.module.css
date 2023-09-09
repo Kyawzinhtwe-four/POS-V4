@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-black);
+  align-items: center;
+  padding: 1.2rem 2.4rem;
+  height: 40px;
+}
+.brand {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.logo-img {
+  width: 3.5rem;
+}
+.main-title {
+  color: var(--dark-gold);
+  font-size: 3rem;
+}
+
+.date-time {
+  list-style: none;
+}
+.date-time li:first-child {
+  color: var(--light-gold);
+  font-size: 1.6rem;
+  text-align: right;
+  margin-bottom: 0.3rem;
+}
+.date-time li:last-child {
+  color: var(--blue);
+  font-size: 1.2rem;
+  text-align: right;
+}
